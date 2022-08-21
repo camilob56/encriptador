@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #E5E5E5;
+}
+
+.container{
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    padding: 5px;
+  
+}
+
+.logo{
+    width: 90%;
+    float: left;
+    margin-top: 5%;
+    margin-left: -10%;
+    float: none;
+}
+
+.panelIzquierdo{
+    float: left;
+    width: 70%;
+    height: 55%;
+    border-radius: 24px;
+}
+
+textarea {
+    height: 30px;
+    width: 100%;
+    resize: none;
+}
+
+.texto{
+    float: left; 
+    margin-top: 1%;
+    width: 85%;
+    height: 90%;
+    color: #0A3871;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background: #E5E5E5;
+    
+}
+
+::placeholder {
+    color: #0A3871;
+    font-size: 25px;
+    position: absolute;
+    font-family: 'Arial';
+  }
+
+.panelDerecho{
+    float: right;
+    width: 25%;
+    height: 93%;
+    border-radius: 24px;
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    left: 65%;
+    top: 30px;
+}
+
+#muneco{
+    margin-top: 30%;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+}
+
+#textoMuneco{
+    margin-left: 10%;
+    margin-right: 5%;
+    color: #343A40;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#textoOperacion{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    color: #495057;
+    width: 80%;
+    height: 10%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+#btnCopiar{
+    margin-left: 9%;
+    margin-top: 500px;
+    padding: 24px;
+    width: 85%;
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    display: none;
+}
+
+.botones{
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-top: 45px;
+    border-radius: 24px;
+}
+
+.exclamacion{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+}
+
+.txtExclamacion{
+    display: inline;
+    font-size: 12px;
+    color: #495057;
+
+}
+
+.botones2{
+    margin: 10px;
+}
+
+#btnEncriptar {
+    padding: 24px;
+    width: 40%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    background: #0A3871;
+    color: white;
+}
+
+#btnDesencriptar {
+    padding: 24px;
+    width: 40%;
+    height: 60%;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    margin-left: 10px;
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+
+

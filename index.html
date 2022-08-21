@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="CSS/style.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        
+            <div class="container">
+
+                <div class="logo">
+                    <h1><img src="imagenes/Vector.png" alt="Logo Alura"></h1>
+                </div>
+
+                <div class="panelIzquierdo">
+                    <textarea name="text" class="texto" id="textInput" cols="80" rows="80" placeholder="Ingrese el texto aqui"></textarea>
+                 
+                </div>
+
+                <div class="panelDerecho">
+                    <img src="imagenes/Muñeco.png" id="muneco" alt="Imagen muñeco Alura">
+                    <h2 id="textoMuneco">Ningún mensaje fue encontrado</h2>
+                    <textarea  id="textoOperacion" name="name" rows="8" cols="30"> Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                    <button id="btnCopiar" type="button" name="button" onclick="copy()">Copiar</button>
+
+                </div>
+
+                <div class="botones">
+                    <img class="exclamacion" src="imagenes/exclamacion.png" alt="">
+                    <p class="txtExclamacion">Solo letras minúsculas y sin acentos</p>
+
+                    <div class="botones2">
+                        <button type="button" id="btnEncriptar" onclick="encriptar()">Encriptar</button>
+                        <button type="button" id="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
+
+                    </div>
+
+                   
+                </div>
+
+            </div>
+             
+                
+
+
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+  <!--
+
+                <label for="ingreseTexto"></label>
+                <input type="text" id="texto" class="inputTexto" required placeholder="Ingrese el texto aqui">
+
+                <div class="anuncio">
+                    <img src="imagenes/exclamacion.png" class="exclamacion" alt="Exclamación">
+                    <P class="soloLetras"> Solo letras minúsculas y sin acentos</P>
+                </div>
+
+                <input type="submit" name="encriptar" value="Encriptar" class="enviar">
+
+                <input type="submit" name="desencriptar" value="Desencriptar" class="enviar">
+            
+            
+                -->
+                
