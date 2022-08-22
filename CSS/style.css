@@ -88,7 +88,7 @@ textarea {
     margin-bottom: 10px;
     color: #495057;
     width: 80%;
-    height: 10%;
+    height: 15%;
     border: none;
     outline: none;
     font-size: 16px;
@@ -156,4 +156,131 @@ textarea {
 }
 
 
+@media screen and (max-width:1200px) {
 
+    .container{
+        width: auto;
+    }
+
+    .logo {
+        margin-left: 0px;
+    }
+
+    .panelDerecho{
+        width: 30%;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .container{
+        width: 650px;
+        height: 950px;
+    }
+
+    .logo {
+        margin-left: 30px;
+    }
+
+    .panelIzquierdo{
+        height: 38%;
+        margin-left: 30px;
+        margin-top: 5%;
+    }
+
+    .panelDerecho{
+        width: 85%;
+        height: 35%;
+        top: 700px;
+        left: 60px;
+
+    }
+
+    #muneco{
+        display: none;
+    }
+
+    #textoOperacion{
+        margin-left: 18%;
+        margin-top: 10px;
+        text-align: initial;
+        font-size: 15px;
+    }
+
+    #btnCopiar{
+        margin-top: 120px;
+    }
+
+    .exclamacion{
+        left: 40px;
+    }
+
+    .txtExclamacion{
+        margin-left: 45px;
+    }
+
+    .botones2{
+        width: 650px;
+        text-align: center;
+    }
+
+    #btnEncriptar{
+        width: 45%;
+    }
+    
+    #btnDesencriptar{
+        width: 45%;
+    }
+
+
+}
+
+@media screen and (max-width:375px) {
+
+    .container{
+        width: 330px;
+        height: 1000px;
+    }
+
+    .texto{
+        width: 100%;
+    }
+
+    .panelDerecho{
+        top: 750px;
+        left: 30px;
+    }
+
+    #textoOperacion{
+        height: 30%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .botones{
+        width: 80%;
+    }
+
+    .botones2{
+        margin-top: 5%;
+        width: 330px;
+    }
+
+    #btnEncriptar{
+        width: 95%;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    #btnDesencriptar{
+        display: block;
+        width: 95%;
+        margin-left: 0px;
+    }
+
+
+
+
+}
