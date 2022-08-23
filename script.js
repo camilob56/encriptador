@@ -41,3 +41,4 @@ function copy() {
     document.execCommand("copy");
     alert("Texto copiado !");
 }
+
